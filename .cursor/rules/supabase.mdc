@@ -1,0 +1,9 @@
+---
+description: Supabase
+globs:
+alwaysApply: true
+---
+
+- 禁止自动执行 db reset，必须用户确认后才能执行
+- 执行任何 supabase 数据库操作前必须询问用户
+- 所有 Supabase SQL 都使用小写
