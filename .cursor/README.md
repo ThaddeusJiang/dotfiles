@@ -1,7 +1,7 @@
 # Cursor Editor dotfiles
 
 ```bash
-npx degit ThaddeusJiang/dotfiles/.cursor/TJ/commands .cursor/$(whoami)/commands
+npx degit ThaddeusJiang/dotfiles/.cursor/commands/TJ .cursor/commands/$(whoami)
 ```
 
 # TJ's cursor commands
