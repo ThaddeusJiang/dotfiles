@@ -1,2 +1,6 @@
 # macOS
 .DS_Store
+
+# 取消忽略被全局 gitignore 忽略的目录
+!.cursor/commands/
+!_devlog/chats/
