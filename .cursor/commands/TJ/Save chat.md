@@ -5,13 +5,12 @@
 ## 保存规则
 
 - **目录名**: 使用当前工作目录名
-- **文件名**: 格式为 `YYYY-MM-DD-核心内容.md`
+- **文件名**: 格式为 `<YYYY-MM-DD>-核心内容.md` 你可以使用 `date` 命令
+- **完整的对话内容**: user message, AI response
 
-## 保存内容
+## 保存格式
 
-- 完整的对话内容，user message, AI response
-
-like:
+形如：
 
 ```markdown
 # 核心内容
