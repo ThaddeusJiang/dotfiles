@@ -12,8 +12,7 @@ npx degit ThaddeusJiang/dotfiles/.cursor/commands/TJ .cursor/commands/${name:u}
 - /Coding
 - /Review
 - /Commit
-- ...
-- /Archive
+- /Add memory to Nowledge
 
 ## Ignore personal commands
 
