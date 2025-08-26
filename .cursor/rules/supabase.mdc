@@ -1,8 +1,7 @@
 ---
-description: Supabase 数据库操作规则
-alwaysApply: true
+description: Supabase
+alwaysApply: false
 ---
-
 # Supabase 数据库操作规则
 
 - 禁止自动执行 db reset，必须用户确认后才能执行
