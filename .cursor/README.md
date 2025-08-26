@@ -1,17 +1,24 @@
 # Cursor Editor dotfiles
 
 ```bash
-npx degit ThaddeusJiang/dotfiles/.cursor/commands/TJ .cursor/commands/$(whoami)
+name=$(whoami)
+npx degit ThaddeusJiang/dotfiles/.cursor/commands/TJ .cursor/commands/${name:u}
 ```
 
-# TJ's cursor commands
+## TJ's workflow
 
 - /Plan
-- /Small Start Coding
-- /Review Code
-- /Clean Code
-- /Git Commit
-- /Git rebase
-- /Archive this chat
-- /Save chat messages
-- /Add memory to Nowledge
+- /Coding MVP
+- /Coding
+- /Review
+- /Commit
+- ...
+- /Archive
+
+## Ignore personal commands
+
+```bash
+name=$(whoami)
+echo ".cursor/commands/${name:u}" >> ~/.gitignore_global
+git config --global core.excludesfile ~/.gitignore_global
+```

@@ -1,8 +1,9 @@
 ---
-description: Supabase
-globs:
+description: Supabase 数据库操作规则
 alwaysApply: true
 ---
+
+# Supabase 数据库操作规则
 
 - 禁止自动执行 db reset，必须用户确认后才能执行
 - 执行任何 supabase 数据库操作前必须询问用户

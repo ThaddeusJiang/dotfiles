@@ -6,10 +6,6 @@
 
 ```
 <type>(<scope>): <description>
-
-[optional body]
-
-[optional footer(s)]
 ```
 
 ## 主要类型
